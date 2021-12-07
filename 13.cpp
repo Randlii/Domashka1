@@ -23,7 +23,7 @@ int main()
 	int* A1;
 
 	printf("vvedite N: ");
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	A = new int[n];
 	A1 = new int[n];
 	for (int i = 0, c = 1; i < n; i++, c++)

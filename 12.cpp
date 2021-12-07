@@ -33,8 +33,8 @@ int main()
 
 	int s,s1;
 	printf("Введите число: "); 
-	scanf("%d", &s);
+	scanf_s("%d", &s);
 	printf("Введите систему исчисления: ");
-	scanf("%d", &s1);
+	scanf_s("%d", &s1);
 	base1(s, s1);
 }

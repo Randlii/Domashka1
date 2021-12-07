@@ -9,12 +9,12 @@ int *B=NULL;
 int flag=0;
 int o=0;
 printf("Введите величину массива:\n ");
-scanf("%d", &s);
+scanf_s("%d", &s);
 A = (int *)malloc(s * sizeof(int));
 B = (int *)malloc(s * sizeof(int));
 printf("Введите массив: ");
 for (int i = 0; i < s; i++)
-scanf("%d", &A[i]);
+scanf_s("%d", &A[i]);
 for (int l = 0; l < s; l++)
 {
 for (int l1 = 0; l1 < s; l1++)
