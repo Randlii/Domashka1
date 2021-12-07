@@ -9,7 +9,7 @@ int main()
 	int i = 0, c = 0, d;
 
 	printf("Введите строку: ");
-	gets(s);
+	gets_s(s);
 	for (int i1 = 0, l; s[i1] != '\0'; i1++)
 	{
 		if (s[i1 + 1] == ' ' || s[i1 + 1] == ',')

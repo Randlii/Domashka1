@@ -8,9 +8,9 @@ int main()
 	int i, n, l = 1;
 	float z, r, o, z1;
 	printf("введите число:");
-	scanf("%f", &z);
+	scanf_s("%f", &z);
 	printf("введите степень:");
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	if (n <= 0)
 		return 0;
 	r = z + 1;

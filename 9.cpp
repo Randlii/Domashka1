@@ -2,7 +2,7 @@
 int main() {
     printf("введите число n: \n");
     int n, z = 1, a = 1,l=0;
-        scanf("%d", &n);
+        scanf_s("%d", &n);
         if (n < 0) {
             printf("Введите положительное число");
             return 0;

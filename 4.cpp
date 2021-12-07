@@ -16,9 +16,9 @@ int main() {
 	int z = 1;
 	float s = 0;
 	printf("введите eps: ");
-	scanf("%d", &eps);
+	scanf_s("%d", &eps);
 	printf("введите х: ");
-	scanf("%d", &x);
+	scanf_s("%d", &x);
 	if (eps <= 0)
 		return 0;
 	int zn = 1; 

@@ -4,7 +4,7 @@ int main() {
 	int n;
 	int* A;
 	printf("введите количество элементов в массиве:");
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	if (n <= 0) {
 		printf("введите положительное число");
 		return 0;
@@ -14,7 +14,7 @@ int main() {
 		printf("ошибка");
 	printf("введите элементы массива:\n");
 	for (int i = 0; i < n; i++)
-	scanf("%d", &A[i]);
+	scanf_s("%d", &A[i]);
 	int t = 0;
 	for (int i = 0; i <= n; i++)
 	{

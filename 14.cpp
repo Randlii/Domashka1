@@ -10,23 +10,23 @@ int main()
 	int* C;
 	int* D;
 	printf("Введите величину массива:\n ");
-	scanf("%d", &k);
+	scanf_s("%d", &k);
 	A = new int[k];
 	printf("Введите массив: ");
 	for (int i = 0; i < k; i++)
-		scanf("%d",&A[i]);
+		scanf_s("%d",&A[i]);
 	printf("Введите величину массива:\n ");
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	B = new int[n];
 	printf("Введите массив: ");
 	for (int i = 0; i < n; i++)
-		scanf("%d", &B[i]);
+		scanf_s("%d", &B[i]);
 	printf("Введите величину массива:\n ");
-	scanf("%d", &m);
+	scanf_s("%d", &m);
 	C = new int[m];
 	printf("Введите массив: ");
 	for (int i = 0; i < m; i++)
-		scanf("%d", &C[i]);
+		scanf_s("%d", &C[i]);
 	D = new int(k + n + m);
 	for (int i = 0; i <= k; i++)
 		D[i] = A[i];

@@ -5,7 +5,7 @@ int main()
 	int i = 0;
 
 	printf("Введите строку: ");
-	gets(s);
+	gets_s(s);
 	while(s[i] != '\0') 
 	{
 		printf("%c", s[i]);

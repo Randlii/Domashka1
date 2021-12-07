@@ -5,11 +5,11 @@ int main() {
 	int t;
 	int* A;
 	printf("Введите величину массива:\n ");
-	scanf("%d", &n);
+	scanf_s("%d", &n);
 	A = (int *)malloc(n * sizeof(int));
 	printf("Введите массив: ");
 	for(int i = 0; i < n; i++)
-		scanf("%d",&A[i]);
+		scanf_s("%d",&A[i]);
 
     int s =1;
     while(s != 0)
